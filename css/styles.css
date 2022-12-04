@@ -1,0 +1,211 @@
+html, body {
+  height: 100%;
+}
+
+/* NAVBAR */
+#brand-logo {
+  width: 50px;
+}
+
+.navbar.navbar-expand-lg {
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgb(65, 24, 75));
+  font-weight: bold;
+}
+
+.navbar.navbar-expand-lg a {
+  color: #FFF;
+}
+.navbar.navbar-expand-lg a:hover {
+  color: #D8D8D8;
+}
+
+/* HOME */
+body{
+  background: url('../img/pizzaria1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#main-container {
+  /* margin-bottom: 100px; */
+  /* padding: 50px 0;
+  text-align: left; */
+  /* min-height: 50%; */
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+.container{
+  color: #fff;
+  width: 45%;
+}
+
+.row {
+  margin: 0;
+}
+
+#pizza-form {
+  color: #fff;
+  max-width: 100%;
+  text-align: left;
+}
+
+#pizza-form label {
+  color: #fff;
+  font-weight: bold;
+}
+
+#curve_chart{
+  width: 50%; height: 500px
+}
+
+/* .btn.btn-primary {
+  background-color: #000;
+  border-color: #000;
+} */
+
+.btn-pedido {
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+  background-image: linear-gradient(transparent 0%,
+          transparent 90%,
+          blue 90%,
+          blue 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
+  transition: 0.4s;
+}
+
+.btn-pedido:hover {
+  width: 120px;
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+.btn-pedido-1 {
+  margin-left: 380px;
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 130px;
+  cursor: pointer;
+  background-image: linear-gradient(transparent 0%,
+          transparent 90%,
+          red 90%,
+          red 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
+  transition: 0.4s;
+}
+
+.btn-pedido-1:hover {
+  font-size: 14px;
+  width: 120px;
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+
+/* ALERTA */
+.alert {
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.alert.alert-success {
+  border: 2px solid #155724;
+}
+
+.alert.alert-warning {
+  border: 2px solid #856404;
+}
+
+.alert p {
+  margin-bottom: 0;
+}
+
+/* DASHBOARD */
+.delete-btn, .update-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-btn {
+  padding-top: 10px;
+}
+
+.delete-btn i {
+  color: #721c24;
+  font-size: 20px;
+}
+
+.update-btn {
+  margin-left: 10px;
+}
+
+.update-btn i {
+  color: #004085;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.status-input {
+  width: 65%;
+}
+
+.table ul {
+  text-align: left;
+}
+
+.table{
+  background-color: #fff;
+}
+
+#barchart_values{
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+/* FOOTER */
+footer {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 85px;
+}
+
+/* RESPONSIVO */
+@media(max-width: 425px) {
+
+}
